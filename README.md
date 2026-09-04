@@ -28,15 +28,27 @@
 
 ## Listas
 
+```
+- Primeiro item
+- Segundo item
+  - Subitem identado
+  - Outro subitem
+    - Subsubitem
+  
+1. Primeiro passo
+2. Segundo passo
+3. Terceiro passo 
+  ```
+
 - Primeiro item
 - Segundo item
   - Subitem identado
   - Outro subitem
     - Subsubitem
 
-  1. Primeiro passo
-  2. Segundo passo
-  3. Terceiro passo 
+1. Primeiro passo
+2. Segundo passo
+3. Terceiro passo 
 
 ## Checklists
 
@@ -49,6 +61,14 @@
 - [ ] Tarefa pendente
 
 ## Links
+
+```
+[Visite o Git Hub](https://github.com/)
+
+[Simple Badges](https://badges.pages.dev/)
+
+[Abra outro arquivo do projeto](./OUTRO.md)
+```
 
 [Visite o Git Hub](https://github.com/)
 
@@ -66,3 +86,28 @@ git add .
 git commit -m "Descrição"
 git push origin main
 ```
+
+```
+  Uma boa documentação explica o objetivo, o uso e as limitações de um projeto.
+  ```
+  > Uma boa documentação explica o objetivo, o uso e as limitações de um projeto.
+
+  ## Tabelas
+
+  | Tecnologia | Finalidade |
+  |--- | --- |
+  |Git | Controle de versões |
+  |Github | Hospedagem e colaboração |
+  Markdown | Documentação |
+
+  | Alinhado a esquerda | alinhado ao centro | alinhado a direita |
+  | :--- | :---: | ---: |
+  |texto | texto | texto |
+
+## Imagem
+
+![lolipop](./imagens/happy-dog.png)
+
+![dog](https://tenor.com/view/happy-dog-gif-3242715879878065443)
+
+![github badge](![BMW Badge](https://img.shields.io/badge/BMW-0066B1?logo=bmw&logoColor=fff&style=flat))
